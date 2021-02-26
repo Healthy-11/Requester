@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#514aac"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewIdDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Id : "
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewIdDialog"
+        app:layout_constraintStart_toEndOf="@+id/textViewIdDialog"
+        app:layout_constraintTop_toTopOf="@+id/textViewIdDialog" />
+
+    <TextView
+        android:id="@+id/textViewSocieteDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Society : "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIdDialog"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextSociete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewSocieteDialog"
+        app:layout_constraintStart_toEndOf="@+id/textViewSocieteDialog"
+        app:layout_constraintTop_toTopOf="@+id/textViewSocieteDialog" />
+
+    <TextView
+        android:id="@+id/textViewCleunikDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Key : "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSocieteDialog"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextCleunik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewCleunikDialog"
+        app:layout_constraintStart_toEndOf="@+id/textViewCleunikDialog"
+        app:layout_constraintTop_toTopOf="@+id/textViewCleunikDialog" />
+
+    <TextView
+        android:id="@+id/textViewCoproDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Condominium : "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCleunikDialog"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextCopro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewCoproDialog"
+        app:layout_constraintStart_toEndOf="@+id/textViewCoproDialog"
+        app:layout_constraintTop_toTopOf="@+id/textViewCoproDialog" />
+
+    <TextView
+        android:id="@+id/textViewNomDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Name : "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCoproDialog"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewNomDialog"
+        app:layout_constraintStart_toEndOf="@+id/textViewNomDialog"
+        app:layout_constraintTop_toTopOf="@+id/textViewNomDialog" />
+
+    <TextView
+        android:id="@+id/textViewCpDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Postal code : "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNomDialog"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextCp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewCpDialog"
+        app:layout_constraintStart_toEndOf="@+id/textViewCpDialog"
+        app:layout_constraintTop_toTopOf="@+id/textViewCpDialog" />
+
+    <TextView
+        android:id="@+id/textViewVilleDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="City : "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCpDialog"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextVille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewVilleDialog"
+        app:layout_constraintStart_toEndOf="@+id/textViewVilleDialog"
+        app:layout_constraintTop_toTopOf="@+id/textViewVilleDialog" />
+
+    <Button
+        android:id="@+id/buttonCreateDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewVilleDialog" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
