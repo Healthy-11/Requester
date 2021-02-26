@@ -52,6 +52,8 @@ public class LoginActivity extends AppCompatActivity {
         prefs = getApplicationContext().getSharedPreferences("PrefsFile", MODE_PRIVATE);
         editor = prefs.edit();
 
+        System.out.println("Coucou");
+        
 
         Button login_btn = (Button) findViewById(R.id.buttonLogin);
         EditText edit_username = (EditText) findViewById(R.id.editTextTextUsername);
